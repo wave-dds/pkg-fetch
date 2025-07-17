@@ -1,7 +1,7 @@
 ARG HOST_ARCH=x86_64
 ARG TARGET_TRIPLE=armv7-linux-musl
 
-FROM node:16.20.2-alpine as build
+FROM node:22.15.0-alpine as build
 
 ARG PKG_FETCH_OPTION_a
 ARG PKG_FETCH_OPTION_n
